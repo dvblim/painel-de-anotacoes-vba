@@ -2,7 +2,7 @@
 
 Agenda de anotações e atas para Excel, feita em VBA com **UserForm** e **módulos de classe**.
 Você escolhe o dia no calendário, registra quantas anotações quiser, marca as urgentes com um
-marca-página, programa lembretes e dá baixa no que já foi resolvido, tudo num painel escuro
+marca página, programa lembretes e dá baixa no que já foi resolvido, tudo num painel escuro
 dentro do próprio Excel.
 
 ![Painel de Anotações](docs/painel.jpg)
