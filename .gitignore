@@ -1,0 +1,6 @@
+# Arquivos temporários do Excel
+~$*.xls*
+# Sua planilha pessoal com as anotações (não publique suas anotações)
+*.xlsm
+*.xlsb
+__pycache__/

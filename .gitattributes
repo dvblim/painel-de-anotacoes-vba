@@ -1,0 +1,7 @@
+# Os módulos VBA ficam em Windows-1252 com CRLF, que é o formato que o
+# editor do VBA importa. Não deixe o Git converter fim de linha nem codificação.
+*.bas -text
+*.cls -text
+*.frm -text
+*.xlsx binary
+*.xlsm binary
