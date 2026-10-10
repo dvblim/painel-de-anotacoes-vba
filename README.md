@@ -5,6 +5,8 @@ Você escolhe o dia no calendário, registra quantas anotações quiser, marca a
 marca-página, programa lembretes e dá baixa no que já foi resolvido, tudo num painel escuro
 dentro do próprio Excel.
 
+![Painel de Anotações](docs/painel.jpg)
+
 ## O que o painel faz
 
 - **Calendário:** clique num dia para ver e registrar as anotações daquela data. Feriados e fins de
@@ -23,6 +25,8 @@ dentro do próprio Excel.
 - **Anotação aberta:** dois cliques no cartão (ou o atalho *editar*) abrem a anotação inteira para
   editar o texto, mudar o lembrete, dar baixa ou excluir.
 - **Aviso ao abrir:** ao abrir o arquivo, uma mensagem lista os lembretes que já estão valendo.
+
+![Anotação aberta com dois cliques](docs/anotacao.jpg)
 
 Os lembretes são conferidos quando o arquivo é aberto e a cada ação no painel. Eles não disparam
 com o Excel fechado.
@@ -62,6 +66,7 @@ Ele regrava o código e não mexe nas tabelas que já existem, então as anotaç
 
 ```
 InstalarPainel.bas         instalador de arquivo único (traz todo o código de src/ embutido)
+docs/                      imagens do README
 src/
   modPainel.bas            abre o painel, cria o botão, avisa os lembretes e preenche as caixas de dia e horário
   frmPainel.frm            painel principal: calendário, lista do dia, nova anotação, alertas e urgentes
